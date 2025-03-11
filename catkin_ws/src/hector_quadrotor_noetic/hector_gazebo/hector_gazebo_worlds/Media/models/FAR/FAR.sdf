@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sdf version="1.6">
+
+  <model name="FAR">
+    <static>true</static>  <!-- 设为静态模型，不受物理影响 -->
+
+    <!-- 加载实验室整体模型 -->
+    <link name="FAR">
+      <collision name="lab_collision">
+        <geometry>
+          <mesh>
+            <uri>model://FAR/meshes/FAR.stl</uri>  <!-- 物理碰撞 -->
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="lab_visual">
+        <geometry>
+          <mesh>
+            <uri>model://FAR/meshes/FAR.dae</uri>  <!-- 渲染模型 -->
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://FAR/materials/materials.sdf</uri>  <!-- 关联材质 -->
+            <name>LabMaterial</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+  
+</sdf>

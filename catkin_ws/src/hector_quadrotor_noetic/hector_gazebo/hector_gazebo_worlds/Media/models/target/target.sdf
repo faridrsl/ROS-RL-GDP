@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<sdf version='1.7'>
+  <model name='target'>
+    <link name='base_link'>
+      <inertial>
+        <pose>0 -0 0.22558 0 -0 0</pose>
+        <mass>565.15</mass>
+        <inertia>
+          <ixx>187.92</ixx>
+          <ixy>1.3632e-14</ixy>
+          <ixz>1.5708e-13</ixz>
+          <iyy>546.66</iyy>
+          <iyz>-1.4528e-14</iyz>
+          <izz>373.81</izz>
+        </inertia>
+      </inertial>
+      <collision name='base_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://target/meshes/base_link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='base_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://target/meshes/base_link.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

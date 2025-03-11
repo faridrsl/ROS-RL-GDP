@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="Obstacal">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.26 0.26 0.41"
+        rpy="0 0 0" />
+      <mass
+        value="3.3896" />
+      <inertia
+        ixx="0.40359"
+        ixy="4.3299E-17"
+        ixz="8.3711E-17"
+        iyy="0.40359"
+        iyz="-4.3502E-17"
+        izz="0.25884" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Obstacal/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.84314 0.81569 0.75294 1" />
+        <texture
+          filename="package://Obstacal/textures/屏幕截图 2024-09-18 174519.png" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Obstacal/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

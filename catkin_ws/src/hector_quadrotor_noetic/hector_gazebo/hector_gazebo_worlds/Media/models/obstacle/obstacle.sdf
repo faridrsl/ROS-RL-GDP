@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<sdf version='1.7'>
+  <model name='obstacle'>
+    <link name='base_link'>
+
+      <inertial>
+        <pose>0.26 0.26 0.41 0 -0 0</pose>
+        <mass>3.3896</mass>
+        <inertia>
+          <ixx>0.40359</ixx>
+          <ixy>4.3299e-17</ixy>
+          <ixz>8.3711e-17</ixz>
+          <iyy>0.40359</iyy>
+          <iyz>-4.3502e-17</iyz>
+          <izz>0.25884</izz>
+        </inertia>
+      </inertial>
+
+      <collision name='base_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model:///obstacle/meshes/base_link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name='base_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://obstacle/meshes/base_link.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+
+    </link>
+  </model>
+</sdf>

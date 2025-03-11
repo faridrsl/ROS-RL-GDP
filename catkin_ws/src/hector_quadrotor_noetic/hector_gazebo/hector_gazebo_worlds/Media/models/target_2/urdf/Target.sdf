@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sdf version='1.7'>
+  <model name='Target'>
+    <link name='Target'>
+
+        <pose>0 -0 0 0 -0 0</pose>
+      <collision name='Target_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://Target/meshes/Target.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      
+      <visual name='Target_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://Target/meshes/Target.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+
+  </model>
+</sdf>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sdf version="1.6">
+  <material name="LabMaterial">
+
+    <!-- 地板材质 -->
+    <shader type="vertex">
+      <normal_map>model://FAR/materials/textures/floor.png</normal_map>
+    </shader>
+
+    <!-- 天花板材质 -->
+    <material name="CeilingMaterial">
+      <shader type="vertex">
+        <normal_map>model://FAR/materials/textures/top.png</normal_map>
+      </shader>
+    </material>
+
+    <!-- 墙壁 1 -->
+    <material name="Wall1Material">
+      <shader type="vertex">
+        <normal_map>model://FAR/materials/textures/wall1.png</normal_map>
+      </shader>
+    </material>
+
+    <!-- 墙壁 2 -->
+    <material name="Wall2Material">
+      <shader type="vertex">
+        <normal_map>model://FAR/materials/textures/wall2.png</normal_map>
+      </shader>
+    </material>
+
+    <!-- 墙壁 3 -->
+    <material name="Wall3Material">
+      <shader type="vertex">
+        <normal_map>model://FAR/materials/textures/wall3.png</normal_map>
+      </shader>
+    </material>
+
+    <!-- 墙壁 4 -->
+    <material name="Wall3Material">
+      <shader type="vertex">
+        <normal_map>model://FAR/materials/textures/wall4.png</normal_map>
+      </shader>
+    </material>
+    
+    <!-- 墙壁 5 -->
+    <material name="Wall3Material">
+      <shader type="vertex">
+        <normal_map>model://FAR/materials/textures/wall5.png</normal_map>
+      </shader>
+    </material>
+    
+    <!-- 墙壁 6 -->
+    <material name="Wall3Material">
+      <shader type="vertex">
+        <normal_map>model://FAR/materials/textures/wall6.png</normal_map>
+      </shader>
+    </material>
+    
+    <!-- 墙壁 7 -->
+    <material name="Wall3Material">
+      <shader type="vertex">
+        <normal_map>model://FAR/materials/textures/wall7.png</normal_map>
+      </shader>
+    </material>
+    
+    <!-- 墙壁 8 -->
+    <material name="Wall3Material">
+      <shader type="vertex">
+        <normal_map>model://FAR/materials/textures/wall8.png</normal_map>
+      </shader>
+    </material>
+    
+  </material>
+</sdf>
